@@ -30,7 +30,25 @@ public class Main {
         for (int numFor = 0; numFor <= 3; numFor = numFor + 1){
             System.out.println(numFor);
         }
+        
+        // Usando el condicional Switch para seleccioanr una variable
+        var estacion = "Primavera";
 
+        switch (estacion){
+            case "Primavera":
+                System.out.println("Es Primavera");
+                break;
+            case "Verano":
+                System.out.println("Es Verano");
+                break;
+            case "Otono":
+                System.out.println("Es Otono");
+                break;
+            case "Invierno":
+                System.out.println("Es Invierno");
+                break;
+            default: System.out.println("Esa estacion no existe, probar con un valor valido");
+        }
 
     }
 
